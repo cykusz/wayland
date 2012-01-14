@@ -513,6 +513,13 @@
          gesture. No further events are sent to the clients from that
          particular gesture. -->
     <event name="touch_cancel"/>
+    
+    <event name="surface_move_motion">
+	    <!--<arg name="surface" type="object" interface="wl_surface"/>-->
+    </event>
+    <event name="surface_move_stop">
+	    <!--<arg name="surface" type="object" interface="wl_surface"/>-->
+    </event>
   </interface>
 
 
